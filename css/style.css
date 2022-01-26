@@ -1,0 +1,395 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+main .container_top {
+    margin: 3rem auto;
+    text-align: center;
+}
+main .container_top h1 {
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+main .container_top span {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+main .container_content {
+    width: 100%;
+    text-align: center;
+}
+main .container_content div {
+    width: 165px;
+    display: inline-block;
+    height: 350px;
+}
+.container_left a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-bottom: 22px;
+    margin-top: 22px;
+    text-align: center;
+}
+.container_right a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-bottom: 22px;
+    margin-top: 22px;
+    text-align: center;
+}
+.container_content a:hover{
+    background-color: #E2E4E7;
+}
+.container_content img {
+    width: 200px;
+    height: 183px;
+    margin-bottom: 15px;
+}
+.container_content div a strong {
+    color: blue;
+    font-size: 1.5rem;
+}
+.container_content div a span {
+    color: black;
+    font-size: 1.2rem;
+}
+.articulo1 {
+    margin-left: 65px;
+    padding-bottom: 6px;
+}
+.articulo2 {
+    margin-right: 33px;
+}
+.articulo3 {
+    width: 130px;
+    padding-right: 21px;
+    padding-bottom: 7px;
+}
+.articulo4 {
+    margin-right: 33px;
+}
+.articulo5 {
+    margin-left: 65px;
+}
+.articulo6 {
+    margin-right: 40px;
+    padding-bottom: 4px;
+}
+.articulo7 {
+    margin-left: 33px;
+}
+.articulo8 {
+    margin-left: 35px;
+    padding-left: 17px;;
+}
+.articulo9 {
+    margin-left: 33px;
+}
+.articulo10 {
+    margin-right: 65px;
+}
+.container_search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.search {
+    border: 1px solid #a2a9b1;
+    height: 45px;
+    width: 410px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.input_search {
+    width: 42rem;
+    height: 100%;
+    border: none;
+    margin-left: 1rem;
+    outline: none;
+}
+.desplegable {
+    border-radius: 0.5rem;
+    height: 50%;
+    border: 0;
+    cursor: pointer;
+}
+.button-lens {
+    background-image: url("https://nervous-swartz-0de02a.netlify.app/lupa.JPG");
+    background-position: center;
+    background-size: 100% 100%;
+    cursor: pointer;
+    height: 45px;
+    width: 50px;
+    border: none;
+}
+.container_idioma {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.button_idioma {
+    border: 1px solid #a2a9b1;
+    width: 280px;
+    height: 35px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    color: blue;
+    background-color: #f8f9fa;
+}
+.idioma_line {
+    height: 1px;
+    background-color: #c8ccd1;
+    width: 35%;
+    margin: auto;
+    position: relative;
+    bottom: -20px;
+    z-index: -1;
+}
+.letra-img {
+    width: 20px;
+    height: 15px;
+}
+.flecha-img {
+    width: 14px;
+    height: 14px;
+}
+.button_idioma span {
+    margin: 6px;    
+}
+footer {
+    display: flex;
+    border-top: 0.5px solid black;
+    margin-top: 35px;
+    height: 500px;
+}
+.container_footer_left {
+    width: 33%;
+    margin-left: 50px;
+}
+.container_footer_top {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    height: 76px;
+    width: 350px;
+    margin-left: 40px;
+    margin-top: 45px;
+    margin-right: 15px;
+    color: black;
+}
+.container_footer_top img {
+    width: 65px;
+    height: 45px;
+}
+.container_footer_botton {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    padding: 13px 5px 0px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    height: 183px;
+    margin-left: 40px;
+    margin-top: 37px;
+    margin-right: 15px;
+    width: 363px;
+}
+.container_footer_botton img {
+    width: 65px;
+    height: 45px;
+    margin-right: 13px;
+}
+h5 {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.container_footer_botton p {
+    padding-right: 18px;
+}
+.icon_playstore {
+    display: inline-block;
+    width: 110px;
+    height: 38px;
+    background-image: url("https://nervous-swartz-0de02a.netlify.app/android.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 8px;
+    margin-top: 7px;
+}
+.icon_apptore {
+    display: inline-block;
+    width: 110px;
+    height: 38px;
+    background-image: url("https://nervous-swartz-0de02a.netlify.app/app.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 8px;
+    margin-top: 7px;
+    margin-left: 9px;
+}
+.container_footer_right{
+    width: 67%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.container_footer_right > div {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    align-items: center;
+}
+.container_footer_right a {
+    font-size: 14px;
+    text-decoration: none;
+    color: blue;
+}
+.container_footer_right p {
+    font-size: 13px;
+    margin-top: 1px;
+}
+.footerimg1 {
+    height: 47px;
+    width: 47px;
+    background-image: url("https://nervous-swartz-0de02a.netlify.app/grid1.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 4px;
+}
+.footerimg2 {
+    height: 47px;
+    width: 47px;
+    background-image: url("https://nervous-swartz-0de02a.netlify.app/grid2.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 4px;
+}
+.footerimg3 {
+    height: 47px;
+    width: 47px;
+    background-image: url("https://nervous-swartz-0de02a.netlify.app/grid3.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 4px;
+}
+.footerimg4 {
+    height: 47px;
+    width: 47px;
+    background-image: url("https://nervous-swartz-0de02a.netlify.app/grid4.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 4px;
+}
+.footerimg5 {
+    height: 47px;
+    width: 47px;
+    background-image: url("https://nervous-swartz-0de02a.netlify.app/grid5.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 4px;
+}
+.footerimg6 {
+    height: 47px;
+    width: 47px;
+    background-image: url("https://nervous-swartz-0de02a.netlify.app/grid6.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 4px;
+}
+.footerimg7 {
+    height: 47px;
+    width: 47px;
+    background-image: url("https://nervous-swartz-0de02a.netlify.app/grid7.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 4px;
+}
+.footerimg8 {
+    height: 47px;
+    width: 47px;
+    background-image: url("https://nervous-swartz-0de02a.netlify.app/grid8.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 4px;
+}
+.footerimg9 {
+    height: 47px;
+    width: 47px;
+    background-image: url("https://nervous-swartz-0de02a.netlify.app/grid9.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 4px;
+}
+.footerimg10 {
+    height: 47px;
+    width: 47px;
+    background-image: url("https://nervous-swartz-0de02a.netlify.app/grid10.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 4px;
+}
+.footerimg11 {
+    height: 47px;
+    width: 47px;
+    background-image: url("https://nervous-swartz-0de02a.netlify.app/grid11.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 4px;
+}
+
+.footerimg12 {
+    height: 47px;
+    width: 47px;
+    background-image: url("https://nervous-swartz-0de02a.netlify.app/grid12.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 4px;
+}
+.container_end{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    width: 100%;
+    margin-top: 506px;
+    font-size: 15px;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    border-top: 0.5px solid black;
+}
+.bio-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.bio-contact a {
+    padding-left: 5px;
+    padding-right: 28px;
+    text-decoration: none;
+    color: blue;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    color: blue;
+}
